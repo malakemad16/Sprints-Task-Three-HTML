@@ -72,40 +72,51 @@
     <h3>Contact Us</h3>
     <form action="">
       <label for="name">Your Name: </label>
-      <input type="text" name="name" id="name" placeholder="Enter Your Name" />
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter Your Name"
+        required
+      />
       <label for="email">Your Email: </label>
       <input
         type="text"
         name="email"
         id="email"
         placeholder="example@gmail.com"
+        required
       />
       <label for="message">Your Message: </label>
-      <textarea name="message" id="message"></textarea>
+      <textarea name="message" id="message" required></textarea>
       <input type="submit" value="Send Message" />
     </form>
     <h4>Contact Information</h4>
-    <table border="1">
-      <tr>
-        <td>Day</td>
-        <td>Opening Time</td>
-        <td>Closing Time</td>
-      </tr>
-      <tr>
-        <td>Monday</td>
-        <td>9:00 AM</td>
-        <td>5:00 PM</td>
-      </tr>
-      <tr>
-        <td>Tuesday</td>
-        <td>9:00 AM</td>
-        <td>5:00 PM</td>
-      </tr>
-      <tr>
-        <td>Wednesday</td>
-        <td>9:00 AM</td>
-        <td>5:00 PM</td>
-      </tr>
+    <table border="1" style="text-align: center">
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Opening Time</th>
+          <th>Closing Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>9:00 AM</td>
+          <td>5:00 PM</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>9:00 AM</td>
+          <td>5:00 PM</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>9:00 AM</td>
+          <td>5:00 PM</td>
+        </tr>
+      </tbody>
     </table>
     <p>
       For further inquiries, you can also email us at
